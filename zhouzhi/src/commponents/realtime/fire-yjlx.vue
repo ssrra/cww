@@ -9,7 +9,7 @@
     </div>
     <div class="box">
       <div class="video-box">
-        <video style="display:block" muted  src="../../assets/image/pandas1.mp4" controls autoplay></video>
+        <!-- <video style="display:block" muted  src="../../assets/image/pandas1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/beast1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/fish1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/朱鹮.mp4" controls autoplay></video>
@@ -18,7 +18,7 @@
         <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/beast1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video>
-        <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video>
+        <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video> -->
         <!--  -->
       </div>
       <div class="video-list">
@@ -79,7 +79,7 @@ export default {
     }
   },
   mounted(){
-    this.videoSrc=require("../../assets/image/pandas1.mp4");
+    // this.videoSrc=require("../../assets/image/pandas1.mp4");
     
   }
 }

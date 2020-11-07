@@ -9,7 +9,7 @@
     </div>
     <div class="box">
       <div class="video-box">
-        <video style="display:block" muted  src="../../assets/image/pandas1.mp4" controls autoplay></video>
+        <!-- <video style="display:block" muted  src="../../assets/image/pandas1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/beast1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/fish1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/朱鹮.mp4" controls autoplay></video>
@@ -18,7 +18,7 @@
         <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/beast1.mp4" controls autoplay></video>
         <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video>
-        <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video>
+        <video style="display:none"  muted src="../../assets/image/pandas1.mp4" controls autoplay></video> -->
         <!--  -->
       </div>
       <div class="video-list">
@@ -43,16 +43,16 @@ export default {
   data(){
     return{
       videoList:[
-        {name:"防火摄像头1",number:'001-0911.mov',time:'2020年9月11日',src:"../../assets/image/pandas1.mp4"},
-        {name:"防火摄像头2",number:'002-0911.mov',time:'2020年9月11日',src:"../../assets/image/beast1.mp4"},
-        {name:"防火摄像头3",number:'003-0911.mov',time:'2020年9月11日',src:"../../assets/image/fish1.mp4"},
-        {name:"防火摄像头4",number:'004-0911.mov',time:'2020年9月11日',src:"../../assets/image/朱鹮.mp4"},
-        {name:"防火摄像头5",number:'005-0911.mov',time:'2020年9月11日',src:"../../assets/image/pandas1.mp4"},
-        {name:"防火摄像头6",number:'006-0911.mov',time:'2020年9月11日',src:"../../assets/image/beast1.mp4"},
-        {name:"防火摄像头7",number:'007-0911.mov',time:'2020年9月11日',src:"../../assets/image/pandas1.mp4"},
-        {name:"防火摄像头8",number:'008-0911.mov',time:'2020年9月11日',src:"../../assets/image/fish1.mp4"},
-        {name:"防火摄像头9",number:'009-0911.mov',time:'2020年9月11日',src:"../../assets/image/beast1.mp4"},
-        {name:"防火摄像头10",number:'010-0911.mov',time:'2020年9月11日',src:"../../assets/image/朱鹮.mp4"},
+        // {name:"防火摄像头1",number:'001-0911.mov',time:'2020年9月11日',src:"../../assets/image/pandas1.mp4"},
+        // {name:"防火摄像头2",number:'002-0911.mov',time:'2020年9月11日',src:"../../assets/image/beast1.mp4"},
+        // {name:"防火摄像头3",number:'003-0911.mov',time:'2020年9月11日',src:"../../assets/image/fish1.mp4"},
+        // {name:"防火摄像头4",number:'004-0911.mov',time:'2020年9月11日',src:"../../assets/image/朱鹮.mp4"},
+        // {name:"防火摄像头5",number:'005-0911.mov',time:'2020年9月11日',src:"../../assets/image/pandas1.mp4"},
+        // {name:"防火摄像头6",number:'006-0911.mov',time:'2020年9月11日',src:"../../assets/image/beast1.mp4"},
+        // {name:"防火摄像头7",number:'007-0911.mov',time:'2020年9月11日',src:"../../assets/image/pandas1.mp4"},
+        // {name:"防火摄像头8",number:'008-0911.mov',time:'2020年9月11日',src:"../../assets/image/fish1.mp4"},
+        // {name:"防火摄像头9",number:'009-0911.mov',time:'2020年9月11日',src:"../../assets/image/beast1.mp4"},
+        // {name:"防火摄像头10",number:'010-0911.mov',time:'2020年9月11日',src:"../../assets/image/朱鹮.mp4"},
       ],
       videoSrc:"", //../../assets/image/pandas1.mp4
      
@@ -79,7 +79,7 @@ export default {
     }
   },
   mounted(){
-    this.videoSrc=require("../../assets/image/pandas1.mp4");
+    // this.videoSrc=require("../../assets/image/pandas1.mp4");
     
   }
 }

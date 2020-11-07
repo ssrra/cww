@@ -10,7 +10,7 @@
     <div class="box">
       <div class="left">
         <div class="img">
-          <video src="../../assets/image/人流量统计.mp4" autoplay="autoplay" loop="loop"></video>
+          <!-- <video src="../../assets/image/人流量统计.mp4" autoplay="autoplay" loop="loop"></video> -->
         </div>
       </div>
       <div class="right">
