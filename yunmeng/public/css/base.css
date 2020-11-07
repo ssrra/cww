@@ -1,0 +1,19 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  /* color:#fff; */
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+li{
+  list-style: none;
+}
+#app{
+  min-width: 1300px;
+}
+h3{
+  letter-spacing: 1px;
+}
