@@ -4,7 +4,11 @@
       <h1>红外相机-活动情况</h1>
       <i class="el-icon-s-unfold" @click="goback()"></i>
       <a>|</a>
+<<<<<<< HEAD
       <span>管理员</span>
+=======
+      <span>管理员9</span>
+>>>>>>> 64bc87c3ae6d475bb095beb6d5044545a2511c59
       <div class="circle"><i class="el-icon-s-custom" ></i></div>
     </div>
 
